@@ -125,6 +125,11 @@ header img{
     color: var(--ps-light);
 }
 
+.playstation4 .btn{
+    background-color: var(--ps-primary);
+    color: var(--ps-light);
+}
+
 /* #endregion Main */
 
 /*
