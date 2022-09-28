@@ -8,6 +8,7 @@
 
 :root{
     --ps-dark: #010100;
+    --ps-darker: #1e1e1f;
     --ps-light-gray: #7b7b7a;
     --ps-gray: #373637;
     --ps-light: #fff;
@@ -24,10 +25,6 @@ body{
 
 img{
     max-width: 100%;
-}
-
-h1{
-    font-weight: bold;
 }
 
 .jumbotron,
@@ -120,6 +117,11 @@ header img{
 .takes_two .btn{
     width: 125px;
     background-color: var(--ps-danger);
+    color: var(--ps-light);
+}
+
+.releases{
+    background-color: var(--ps-darker);
     color: var(--ps-light);
 }
 
