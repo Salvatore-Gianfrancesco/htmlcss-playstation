@@ -18,6 +18,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    /* background-color: red; */
 }
 
 img{
@@ -37,3 +38,25 @@ header img{
 }
 
 /* #endregion Header */
+
+/* #region Main */
+
+.navbar{
+    background-color: var(--ps-light);
+}
+
+.nav-link{
+    color: var(--ps-dark);
+}
+
+.navbar .btn{
+    background-color: var(--ps-gray);
+    color: var(--ps-light);
+}
+
+.search_icon a{
+    color: var(--ps-gray);
+    vertical-align: middle;
+}
+
+/* #endregion Main */
