@@ -30,6 +30,13 @@ h1{
     font-weight: bold;
 }
 
+.jumbotron,
+.takes_two{
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -66,10 +73,7 @@ header img{
 
 .jumbotron{
     height: 580px;
-    width: 100%;
     background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
-    background-position-x: center;
     color: var(--ps-light);
 }
 
@@ -105,6 +109,18 @@ header img{
 
 .ps5_carousel p.ps_active{
     color: var(--ps-dark);
+}
+
+.takes_two{
+    height: 620px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    color: var(--ps-light);
+}
+
+.takes_two .btn{
+    width: 125px;
+    background-color: var(--ps-danger);
+    color: var(--ps-light);
 }
 
 /* #endregion Main */
