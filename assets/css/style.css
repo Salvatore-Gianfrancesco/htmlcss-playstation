@@ -8,6 +8,7 @@
 
 :root{
     --ps-dark: #010100;
+    --ps-light-gray: #7b7b7a;
     --ps-gray: #373637;
     --ps-light: #fff;
     --ps-danger: #cd3c0e;
@@ -18,11 +19,15 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color: red; */
+    color: var(--ps-dark);
 }
 
 img{
     max-width: 100%;
+}
+
+h1{
+    font-weight: bold;
 }
 
 /* #endregion Common */
@@ -72,6 +77,34 @@ header img{
     width: 125px;
     background-color: var(--ps-danger);
     color: var(--ps-light);
+}
+
+.no_limit{
+    color: var(--ps-primary);
+    font-weight: bold;
+}
+
+.subtitle{
+    color: var(--ps-light-gray);
+    font-weight: bold;
+}
+
+.playstation5 .btn{
+    width: 180px;
+    background-color: var(--ps-primary);
+    color: var(--ps-light);
+}
+
+.ps5_carousel .card-text{
+    color: var(--ps-light-gray);
+}
+
+.ps5_carousel div.ps_active{
+    border-bottom: 3px solid var(--ps-primary-light);
+}
+
+.ps5_carousel p.ps_active{
+    color: var(--ps-dark);
 }
 
 /* #endregion Main */
