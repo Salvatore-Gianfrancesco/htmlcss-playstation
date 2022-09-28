@@ -59,4 +59,19 @@ header img{
     vertical-align: middle;
 }
 
+.jumbotron{
+    height: 580px;
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position-x: center;
+    color: var(--ps-light);
+}
+
+.jumbotron .btn{
+    width: 125px;
+    background-color: var(--ps-danger);
+    color: var(--ps-light);
+}
+
 /* #endregion Main */
