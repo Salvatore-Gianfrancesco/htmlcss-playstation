@@ -47,6 +47,14 @@ img {
 
 /* #endregion Common */
 
+/* #region Utilities */
+
+.no_wrap {
+    white-space: nowrap;
+}
+
+/* #endregion Utilities */
+
 /* #region Font */
 
 body,
@@ -139,7 +147,7 @@ header img {
     color: var(--ps-light);
 }
 
-.jumbo_carousel div.ps_active{
+.jumbo_carousel div.ps_active {
     border: 2px solid transparent;
     box-shadow: 0 0px 0px 3px var(--ps-primary-light);
 }

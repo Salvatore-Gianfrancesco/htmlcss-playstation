@@ -47,6 +47,14 @@ img {
 
 /* #endregion Common */
 
+/* #region Utilities */
+
+.no_wrap{
+    white-space: nowrap;
+}
+
+/* #endregion Utilities */
+
 /* #region Font */
 
 body,
@@ -120,6 +128,34 @@ header img {
 .navbar .btn:hover {
     background-color: var(--ps-gray);
     color: var(--ps-light);
+}
+
+.nav-item:active img{
+    transform: rotate(180deg);
+}
+
+.navbar_dropdown .playstation_icon{
+    width: 150px;
+}
+
+.navbar_dropdown img{
+    max-width: 100px;
+}
+
+.navbar_dropdown div.ps_active{
+    transition: 0.2s;
+}
+
+.navbar_dropdown div.ps_active:hover{
+    border: 2px solid var(--ps-bg-plus);
+}
+
+.playstation_list{
+    border-bottom: 2px solid var(--ps-bg-plus);
+}
+
+.navbar_dropdown a{
+    color: var(--ps-dark);
 }
 
 .jumbotron {
