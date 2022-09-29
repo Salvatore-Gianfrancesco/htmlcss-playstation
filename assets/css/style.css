@@ -16,6 +16,9 @@
     --ps-primary: #2d64e6;
     --ps-primary-light: #358ed9;
     --ps-primary-dark: #00429d;
+    --ps-bg-plus: #bfbcba;
+    --ps-bg-plus-btn: #d8dadd;
+    --ps-bg-now: #161d3a;
 }
 
 body{
@@ -128,6 +131,19 @@ header img{
 .playstation4 .btn{
     background-color: var(--ps-primary);
     color: var(--ps-light);
+}
+
+.playstation_plus{
+    background-color: var(--ps-bg-plus);
+}
+
+.playstation_plus img{
+    width: 65%;
+}
+
+.playstation_plus .btn{
+    background-color: var(--ps-bg-plus-btn);
+    color: var(--ps-primary);
 }
 
 /* #endregion Main */
