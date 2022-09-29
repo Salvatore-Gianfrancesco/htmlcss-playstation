@@ -161,6 +161,44 @@ header img{
 
 /* #endregion Main */
 
+/* #region Footer */
+
+footer{
+    background-color: var(--ps-primary-dark);
+}
+
+.region .ps_logo{
+    width: 100px;
+}
+
+.region .globe{
+    width: 20px;
+}
+
+.region a{
+    color: var(--ps-light);
+}
+
+.footer_links ul{
+    list-style: none;
+}
+
+.footer_links a{
+    color: var(--ps-light);
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+.sony_ie img{
+    width: 135px;
+}
+
+.sony_ie p{
+    color: var(--ps-light);
+}
+
+/* #endregion Footer */
+
 /* #region Responsive */
 
 @media screen and (min-width: 577px) {
