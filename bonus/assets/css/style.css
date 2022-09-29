@@ -1,0 +1,305 @@
+/* #region Common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ps-dark: #000;
+    --ps-darker: #1e1e1f;
+    --ps-light-gray: #7b7b7a;
+    --ps-gray: #373637;
+    --ps-light: #fff;
+    --ps-danger: #cd3c0e;
+    --ps-primary: #2d64e6;
+    --ps-primary-light: #358ed9;
+    --ps-primary-dark: #00429d;
+    --ps-bg-plus: #bfbcba;
+    --ps-bg-plus-btn: #d8dadd;
+    --ps-bg-now: #161d3a;
+
+    --fs-17: 17px;
+    --fs-21: 21px;
+    --fs-26: 26px;
+    --fs-34: 34px;
+    --fs-38: 38px;
+    --fs-42: 42px;
+    --fs-44: 44px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--ps-dark);
+}
+
+img {
+    max-width: 100%;
+}
+
+.jumbotron,
+.takes_two {
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+}
+
+/* #endregion Common */
+
+/* #region Font */
+
+body,
+.nav-link,
+.navbar .btn,
+.search_icon a {
+    font-size: var(--fs-17);
+}
+
+.subtitle {
+    font-size: var(--fs-21);
+}
+
+.releases h3 {
+    font-size: var(--fs-26);
+}
+
+.releases h2,
+.social h3 {
+    font-size: var(--fs-34);
+}
+
+.playstation4 h2 {
+    font-size: var(--fs-38);
+}
+
+.jumbotron h1 {
+    font-size: var(--fs-42);
+}
+
+.playstation5 h1,
+.takes_two h1,
+.playstation4 h1,
+.discount h1 {
+    font-size: var(--fs-44);
+}
+
+/* #endregion Font */
+
+/* #region Header */
+
+header {
+    background-color: var(--ps-dark);
+}
+
+header img {
+    width: 80px;
+}
+
+/* #endregion Header */
+
+/* #region Main */
+
+.navbar {
+    background-color: var(--ps-light);
+}
+
+.nav-link {
+    color: var(--ps-dark);
+}
+
+.nav-link img {
+    width: 10px;
+}
+
+.navbar .btn {
+    background-color: var(--ps-gray);
+    color: var(--ps-light);
+}
+
+.navbar .btn:hover {
+    background-color: var(--ps-gray);
+    color: var(--ps-light);
+}
+
+.jumbotron {
+    height: 580px;
+    background-image: url(../img/jumbo-bg.png);
+    color: var(--ps-light);
+}
+
+.jumbotron .btn {
+    width: 125px;
+    background-color: var(--ps-danger);
+    color: var(--ps-light);
+}
+
+.jumbotron .btn:hover {
+    background-color: var(--ps-danger);
+    color: var(--ps-light);
+}
+
+.jumbo_carousel div.ps_active{
+    border: 2px solid transparent;
+    box-shadow: 0 0px 0px 3px var(--ps-primary-light);
+}
+
+.no_limit {
+    color: var(--ps-primary);
+    font-weight: bold;
+}
+
+.subtitle {
+    color: var(--ps-light-gray);
+}
+
+.playstation5 .btn {
+    width: 180px;
+    background-color: var(--ps-primary);
+    color: var(--ps-light);
+}
+
+.playstation5 .btn:hover {
+    background-color: var(--ps-primary);
+    color: var(--ps-light);
+}
+
+.ps5_carousel .card-text {
+    color: var(--ps-light-gray);
+}
+
+.ps5_carousel div.ps_active {
+    border-bottom: 3px solid var(--ps-primary-light);
+}
+
+.ps5_carousel p.ps_active {
+    color: var(--ps-dark);
+}
+
+.takes_two {
+    height: 620px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    color: var(--ps-light);
+}
+
+.takes_two .btn {
+    width: 125px;
+    background-color: var(--ps-danger);
+    color: var(--ps-light);
+}
+
+.takes_two .btn:hover {
+    background-color: var(--ps-danger);
+    color: var(--ps-light);
+}
+
+.releases {
+    background-color: var(--ps-darker);
+    color: var(--ps-light);
+}
+
+.playstation4 .btn {
+    background-color: var(--ps-primary);
+    color: var(--ps-light);
+}
+
+.playstation4 .btn:hover {
+    background-color: var(--ps-primary);
+    color: var(--ps-light);
+}
+
+.playstation_plus img,
+.playstation_now img {
+    width: 65%;
+}
+
+.playstation_plus {
+    background-color: var(--ps-bg-plus);
+}
+
+.playstation_plus .btn {
+    background-color: var(--ps-bg-plus-btn);
+    color: var(--ps-primary);
+}
+
+.playstation_plus .btn:hover {
+    background-color: var(--ps-bg-plus-btn);
+    color: var(--ps-primary);
+}
+
+.playstation_now {
+    background-color: var(--ps-bg-now);
+}
+
+.playstation_now .btn {
+    background-color: var(--ps-light);
+}
+
+.playstation_now .btn:hover {
+    background-color: var(--ps-light);
+}
+
+.playstation_now p {
+    color: var(--ps-light);
+}
+
+/* #endregion Main */
+
+/* #region Footer */
+
+footer {
+    background-color: var(--ps-primary-dark);
+}
+
+.region .ps_logo {
+    width: 100px;
+}
+
+.region .globe {
+    width: 20px;
+}
+
+.region a {
+    color: var(--ps-light);
+}
+
+.footer_links ul {
+    list-style: none;
+}
+
+.footer_links a {
+    color: var(--ps-light);
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+.sony_ie img {
+    width: 135px;
+}
+
+.sony_ie p {
+    color: var(--ps-light);
+}
+
+.sony_ie a {
+    color: var(--ps-light);
+}
+
+/* #endregion Footer */
+
+/* #region Responsive */
+
+@media screen and (min-width: 577px) {
+    .social .col {
+        max-width: 115px;
+    }
+}
+
+/* #endregion Responsive */
+
+/*
+TO DO...
+    1) Fai_acquisti???
+    2) ...
+    3) disabilitare l'hover dei .btn bootstrap
+*/
