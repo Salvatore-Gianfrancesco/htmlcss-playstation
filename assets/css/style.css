@@ -161,6 +161,16 @@ header img{
 
 /* #endregion Main */
 
+/* #region Responsive */
+
+@media screen and (min-width: 577px) {
+    .social .col{
+        max-width: 115px;
+    }
+}
+
+/* #endregion Responsive */
+
 /*
 TO DO...
     1) active card in carousel
