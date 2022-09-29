@@ -139,6 +139,11 @@ header img {
     color: var(--ps-light);
 }
 
+.jumbo_carousel div.ps_active{
+    border: 2px solid transparent;
+    box-shadow: 0 0px 0px 3px var(--ps-primary-light);
+}
+
 .no_limit {
     color: var(--ps-primary);
     font-weight: bold;
@@ -294,7 +299,7 @@ footer {
 
 /*
 TO DO...
-    1) active card in carousel
-    2) disabilitare l'hover dei .btn bootstrap
-    3) Fai_acquisti???
+    1) Fai_acquisti???
+    2) ...
+    3) disabilitare l'hover dei .btn bootstrap
 */
