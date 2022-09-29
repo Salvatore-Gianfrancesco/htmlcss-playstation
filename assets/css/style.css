@@ -133,17 +133,30 @@ header img{
     color: var(--ps-light);
 }
 
-.playstation_plus{
-    background-color: var(--ps-bg-plus);
+.playstation_plus img,
+.playstation_now img{
+    width: 65%;
 }
 
-.playstation_plus img{
-    width: 65%;
+.playstation_plus{
+    background-color: var(--ps-bg-plus);
 }
 
 .playstation_plus .btn{
     background-color: var(--ps-bg-plus-btn);
     color: var(--ps-primary);
+}
+
+.playstation_now{
+    background-color: var(--ps-bg-now);
+}
+
+.playstation_now .btn{
+    background-color: var(--ps-light);
+}
+
+.playstation_now p{
+    color: var(--ps-light);
 }
 
 /* #endregion Main */
