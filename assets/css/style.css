@@ -61,10 +61,16 @@ header img{
     color: var(--ps-dark);
 }
 
+.nav-link img{
+    width: 10px;
+}
+
 .navbar .btn{
     background-color: var(--ps-gray);
     color: var(--ps-light);
 }
+
+
 
 .search_icon a{
     color: var(--ps-gray);
