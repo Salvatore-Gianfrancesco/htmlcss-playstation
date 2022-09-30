@@ -45,6 +45,25 @@ img {
     background-position-x: center;
 }
 
+.navbar .btn:hover{
+    box-shadow: inset 0 0 0px 3px var(--ps-light-gray);
+}
+
+.jumbotron .btn:hover,
+.takes_two .btn:hover{
+    box-shadow: inset 0 0 0px 3px var(--ps-dark);
+}
+
+.playstation5 .btn:hover,
+.playstation4 .btn:hover{
+    box-shadow: 0 0 0px 3px var(--ps-dark);
+}
+
+.playstation_plus .btn:hover,
+.playstation_now .btn:hover{
+    box-shadow: inset 0 0 0px 3px var(--ps-light-gray);
+}
+
 /* #endregion Common */
 
 /* #region Utilities */
@@ -140,10 +159,6 @@ header img {
 
 .navbar_dropdown img{
     max-width: 100px;
-}
-
-.navbar_dropdown div.ps_active{
-    transition: 0.2s;
 }
 
 .navbar_dropdown div.ps_active:hover{
@@ -332,10 +347,3 @@ footer {
 }
 
 /* #endregion Responsive */
-
-/*
-TO DO...
-    1) Fai_acquisti???
-    2) ...
-    3) disabilitare l'hover dei .btn bootstrap
-*/
