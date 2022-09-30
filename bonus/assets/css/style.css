@@ -45,22 +45,22 @@ img {
     background-position-x: center;
 }
 
-.navbar .btn:hover{
+.navbar .btn:hover {
     box-shadow: inset 0 0 0px 3px var(--ps-light-gray);
 }
 
 .jumbotron .btn:hover,
-.takes_two .btn:hover{
+.takes_two .btn:hover {
     box-shadow: inset 0 0 0px 3px var(--ps-dark);
 }
 
 .playstation5 .btn:hover,
-.playstation4 .btn:hover{
+.playstation4 .btn:hover {
     box-shadow: 0 0 0px 3px var(--ps-dark);
 }
 
 .playstation_plus .btn:hover,
-.playstation_now .btn:hover{
+.playstation_now .btn:hover {
     box-shadow: inset 0 0 0px 3px var(--ps-light-gray);
 }
 
@@ -68,8 +68,12 @@ img {
 
 /* #region Utilities */
 
-.no_wrap{
+.no_wrap {
     white-space: nowrap;
+}
+
+.ps_pointer {
+    cursor: pointer;
 }
 
 /* #endregion Utilities */
@@ -149,27 +153,27 @@ header img {
     color: var(--ps-light);
 }
 
-.nav-item:active img{
+.nav-item:active img {
     transform: rotate(180deg);
 }
 
-.navbar_dropdown .playstation_icon{
+.navbar_dropdown .playstation_icon {
     width: 150px;
 }
 
-.navbar_dropdown img{
+.navbar_dropdown img {
     max-width: 100px;
 }
 
-.navbar_dropdown div.ps_active:hover{
-    border: 2px solid var(--ps-bg-plus);
+.navbar_dropdown div.ps_active:hover {
+    box-shadow: 0px 0px 0px 3px var(--ps-bg-plus);
 }
 
-.playstation_list{
+.playstation_list {
     border-bottom: 2px solid var(--ps-bg-plus);
 }
 
-.navbar_dropdown a{
+.navbar_dropdown a {
     color: var(--ps-dark);
 }
 
@@ -190,7 +194,7 @@ header img {
     color: var(--ps-light);
 }
 
-.jumbo_carousel div.ps_active{
+.jumbo_carousel div.ps_active {
     border: 2px solid transparent;
     box-shadow: 0 0px 0px 3px var(--ps-primary-light);
 }
@@ -227,16 +231,16 @@ header img {
     color: var(--ps-dark);
 }
 
-.ps5_carousel .ps_disabled{
+.ps5_carousel .ps_disabled {
     opacity: 75%;
 }
 
-.ps5_carousel .col:hover{
+.ps5_carousel .col:hover {
     box-shadow: 0px 15px 0px -12px var(--ps-primary);
 }
 
 .ps5_carousel .col:hover img,
-.ps5_carousel .col:hover .card-text{
+.ps5_carousel .col:hover .card-text {
     opacity: 100%;
 }
 
