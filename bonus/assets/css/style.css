@@ -216,15 +216,28 @@ header img {
 }
 
 .ps5_carousel .card-text {
-    color: var(--ps-light-gray);
+    color: var(--ps-dark);
 }
 
 .ps5_carousel div.ps_active {
-    border-bottom: 3px solid var(--ps-primary-light);
+    box-shadow: 0px 15px 0px -12px var(--ps-primary);
 }
 
 .ps5_carousel p.ps_active {
     color: var(--ps-dark);
+}
+
+.ps5_carousel .ps_disabled{
+    opacity: 75%;
+}
+
+.ps5_carousel .col:hover{
+    box-shadow: 0px 15px 0px -12px var(--ps-primary);
+}
+
+.ps5_carousel .col:hover img,
+.ps5_carousel .col:hover .card-text{
+    opacity: 100%;
 }
 
 .takes_two {
